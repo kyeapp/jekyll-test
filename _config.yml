@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kevin's Blog 
+title: paeynivek.github.io
 email: paeynivek@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,6 +26,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" # "default" "air", "contrast", "dark", "dirt", "mint", "sunrise"
+permalink:   /:categories/:title/
+
 
 # Site Author
 author:
